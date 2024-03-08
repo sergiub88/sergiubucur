@@ -3,14 +3,14 @@ package homework6;
 public class Main {
 
     public static void main(String[] args) {
-        // Test conversii între diferite unități
+
         System.out.println("10 cm în mm: " + convert(10, "cm", "mm") + " mm");
         System.out.println("1 m în mm: " + convert(1, "m", "mm") + " mm");
         System.out.println("1000 mm în m: " + convert(1000, "mm", "m") + " m");
         System.out.println("1 km în m: " + convert(1, "km", "m") + " m");
         System.out.println("123 cm în km: " + convert(123, "cm", "km") + " km");
 
-        // Conversii care ar trebui să genereze mesaje de eroare (unitate necunoscută)
+
         System.out.println("100 x în y: " + convert(100, "x", "y") + " y");
     }
 
